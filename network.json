@@ -53,17 +53,20 @@
             "name": "data.csv"
         },
         {
-            "name": "genSubset.R"
-        },
-        {
             "assigned_to": "jsaltz11",
             "name": "clean.R",
             "task_status": "proposed"
         },
         {
             "name": "testHist.png"
+        },
+        {
+            "name": "genSubset.R"
+        },
+        {
+            "name": "strOutput.txt"
         }
     ],
-    "updated_at": "2018-09-27 12:54:31",
+    "updated_at": "2018-09-27 12:55:44",
     "url": "https://github.com/fall2018-saltz/js_test"
 }
