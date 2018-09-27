@@ -49,8 +49,11 @@
             "assigned_to": "jsaltz11",
             "name": "clean.R",
             "task_status": "proposed"
+        },
+        {
+            "name": "genHist.png"
         }
     ],
-    "updated_at": "2018-09-27 12:49:48",
+    "updated_at": "2018-09-27 12:50:11",
     "url": "https://github.com/fall2018-saltz/js_test"
 }
