@@ -1,1 +1,2 @@
 
+histOut <- hist(subset$Ozone)
