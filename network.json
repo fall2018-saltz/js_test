@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "subset",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "genSubset.R"
         }
     ],
     "nodes": [
@@ -30,12 +40,17 @@
             "name": "raw_data.csv"
         },
         {
-            "name": "clean.R"
+            "name": "data.csv"
         },
         {
-            "name": "data.csv"
+            "name": "genSubset.R"
+        },
+        {
+            "assigned_to": "jsaltz11",
+            "name": "clean.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-09-27 12:45:07",
+    "updated_at": "2018-09-27 12:49:48",
     "url": "https://github.com/fall2018-saltz/js_test"
 }
