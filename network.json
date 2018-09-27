@@ -43,6 +43,16 @@
             ],
             "source": "genSubset.R",
             "target": "testHist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "strOut",
+                    "type": "txt"
+                }
+            ],
+            "source": "genSubset.R",
+            "target": "strOutput.txt"
         }
     ],
     "nodes": [
@@ -67,6 +77,6 @@
             "name": "strOutput.txt"
         }
     ],
-    "updated_at": "2018-09-27 12:55:44",
+    "updated_at": "2018-09-27 12:55:57",
     "url": "https://github.com/fall2018-saltz/js_test"
 }
